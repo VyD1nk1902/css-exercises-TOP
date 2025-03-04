@@ -1,0 +1,22 @@
+.bg-red {
+  background-color: rgba(255, 167, 167, 1);
+}
+
+.fontst {
+  font-family: Verdana, "DejaVu Sans", sans-serif;
+}
+
+#one {
+  color: blue;
+  font-size: 36px;
+}
+
+.fontsi {
+  font-size: 24px;
+}
+
+#two {
+  background: hsl(120, 100%, 75%, 1);
+  font-size: 24px;
+  font-weight: bold;
+}

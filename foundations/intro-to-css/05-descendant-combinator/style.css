@@ -1,6 +1,7 @@
-.container {
+.container .text {
   background-color: yellow;
   color: red;
   font-size: 20px;
   text-align: center;
 }
+/* chỉ có những 'text' lớp con của 'container' mới được css */

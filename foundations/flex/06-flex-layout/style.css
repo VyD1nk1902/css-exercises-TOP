@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
 
 body {
   height: 100vh;
@@ -23,4 +23,57 @@ input {
   border-radius: 16px;
   padding: 8px 24px;
   width: 400px;
+}
+
+/* My Solution */
+/* This to delete dot and underline */
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: #7f858c;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+.header,
+.footer {
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+  padding: 12px 24px;
+}
+
+.footer {
+  align-items: flex-end;
+  background: #eee;
+}
+
+.left-links,
+.right-links {
+  display: flex;
+  gap: 12px;
+  padding: 0;
+}
+
+.content {
+  display: flex;
+  flex: 1;
+  /* use flex 1 to fullfill the size of the webpage */
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.buttons {
+  margin-top: 12px;
+}
+
+button {
+  padding: 8px 12px;
 }
